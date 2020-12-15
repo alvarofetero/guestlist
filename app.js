@@ -10,7 +10,7 @@ new Vue({
         guestName:[]
     },
     methods: {
-        formsSubmitted: function(){
+        formSubmitted: function(){
             console.log(this.newNameText)
         }
     },
