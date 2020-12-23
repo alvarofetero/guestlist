@@ -38,5 +38,13 @@ new Vue({
         guestName: function(data){
             console.log('Watch triggered')
         }
+    },
+    filters:{
+        toUpper: function(value){
+            return value.toUpperCase()
+        },
+        formatName: function(value){
+            console.log(value);
+        }
     }
 });
