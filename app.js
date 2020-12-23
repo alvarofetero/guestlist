@@ -40,11 +40,8 @@ new Vue({
         }
     },
     filters:{
-        toUpper: function(value){
-            return value.toUpperCase()
-        },
         formatName: function(value){
-            console.log(value);
+            return value.slice(0, 1).toUpperCase() + value.slice(1).toLowerCase()
         }
     }
 });
