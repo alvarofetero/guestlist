@@ -24,5 +24,9 @@ new Vue({
             }
         }
     },
-    
+    computed:{
+        sortNames: function(){
+            return this.guestName.sort()
+        }
+    }
 });
